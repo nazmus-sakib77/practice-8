@@ -1,0 +1,216 @@
+
+/* Default CSS Style Beginning */
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  
+}
+/* Default CSS Style Closing */
+
+/* Nav-Bar CSS Style Beginning */
+.nav-bar{
+    min-height: 100px;
+    padding: 0px 100px;
+    background: linear-gradient(25deg, hotpink, #87adfe, #ff77cd);
+}
+.nav-bar h3{
+    margin: 0px;
+    padding-top:30px ;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+}
+.nav-bar nav{
+    float: right;
+    padding-top:37px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+}
+nav a:hover{
+    color: blue;
+}
+
+nav a:active{
+    color: red;
+}
+
+
+/* Nav-Bar CSS Style Closing */
+
+/* Feature CSS Style Beginning */
+header .feature{
+    min-height: 400px;
+    padding: 100px;
+    text-align: center;
+    background: linear-gradient(45deg, #6b64d6, #abff77);
+    
+
+}
+
+.feature h1{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 1.7;
+    margin-bottom:50px;
+    
+
+}
+.feature h3{
+    font-size: 23px;
+    
+}
+.feature p{
+    font-size: 14px;
+}
+
+/* Nav-Bar CSS Style Closing */
+
+.container{
+    overflow: hidden;
+    padding: 100px;
+}
+.container h1{
+    margin: 0;
+    text-align: center;
+    
+
+}
+.container p{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.blog{
+    width: 31.55%;
+    min-height: 300px;
+    float: left;
+    
+    background: linear-gradient(25deg, hotpink, #87adfe, #ff77cd); 
+}
+.contact{
+    width: 31.55%;
+    min-height: 300px;
+    float: right;
+    margin-right: 20px;  
+    background: linear-gradient(25deg, hotpink, #87adfe, #ff77cd); 
+
+
+}
+
+.content{
+    width: 31.55%;
+    min-height: 300px;
+    float: right;
+    margin-right: 20px;
+
+    background: linear-gradient( 53deg , #14ffde, #4f2956, #ab2020);
+}
+.service{
+    overflow: hidden;
+    padding: 100px;
+    background-color: blueviolet;
+
+}
+.maximus1{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.maximus2{
+    
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    
+}
+.maximus3{
+    
+    display: inline-block;
+    
+    margin-left: 100px;
+    text-align: center;
+}
+.form{
+    padding: 100px;
+    background: linear-gradient(45deg, #ffc7c7, blue );
+}
+.name-list{
+    width: 50%;
+}
+label{
+    font-size: 25px;
+}
+input{
+    font-size: 20px;
+    
+    border-radius: 5px;
+   
+}
+.checkbox{
+    font-size: 30px;
+}
+
+select{
+    font-size: 20px;
+}
+
+
+.submit{
+   
+    
+    background: linear-gradient(45deg, rgb(250, 222, 236), #87adfe);
+    
+}
+.submit:hover{
+  
+    background-color: white;
+
+
+    
+}
+
+
+
+
+
+.portfolio{
+    min-height: 300px;
+    background: linear-gradient(45deg, hotpink, #abff77);
+    padding: 100px;
+}
+
+.profile{
+    width: 20%;
+    min-height: 230px;
+    display: inline-block;
+    margin-right: 50px;
+    background: linear-gradient( 53deg , #14ffde, #4f2956, #ab2020);
+}
+
+.profile1{
+    overflow: hidden;
+    width: 20%;
+    min-height: 230px;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+footer{
+    
+    min-height: 150px;
+    background-color: rgb(0, 66, 88);
+
+}
+
+footer h1{
+
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
